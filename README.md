@@ -33,3 +33,15 @@
    8. urls
       1. notice:list
       2. notice:detail
+3. startapp post
+   1. python manage.py startapp post
+   2. 'post', in INSTALLED_APPS in settings.py
+   3. models
+      1. Post
+      2. Comment
+      3. python manage.py makemigrations post
+      4. python manage.py migrate post
+   4. admin
+   5. views
+   6. templates
+   7. urls
